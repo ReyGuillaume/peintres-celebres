@@ -1,0 +1,23 @@
+.artist-card {
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 1em;
+  margin: 1em;
+  background-color: #ffffff30;
+  color: #dfdfdf;
+  border-radius: 1.5em;
+}
+.artist-card__image {
+  object-fit: cover;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  border: 2px solid #c3b38a;
+}
+.artist-card__name {
+  font-size: 1.2em;
+  font-weight: bold;
+}

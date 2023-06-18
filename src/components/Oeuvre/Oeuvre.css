@@ -1,0 +1,42 @@
+.oeuvre {
+  font-size: 16px;
+  letter-spacing: .2em;
+  line-height: 1.2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 60%;
+  margin: 0 auto 1em;
+}
+.oeuvre:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.oeuvre__informations {
+  width: 50%;
+  background-color: #712121;
+  padding: 1em 2em;
+}
+.oeuvre__informations--artist-image {
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+  box-shadow: 0 0 .5em #000;
+  border-radius: .2em;
+}
+.oeuvre__informations--artist-name {
+  color: #ffffff5a;
+}
+
+.oeuvre__image {
+  width: 50%;
+  box-shadow: 0 0 .5em #000;
+  border-radius: .2em;
+}
+
+@media screen and (max-width: 800px) {
+  .oeuvre {
+    width: 100%;
+  }
+}

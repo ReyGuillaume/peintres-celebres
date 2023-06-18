@@ -1,0 +1,9 @@
+.side-title {
+  z-index: -1;
+  position: fixed;
+  font-size: 6.5em;
+  bottom: 0;
+  padding-top: 2em;
+  transform: rotate(-90deg) translateX(25%);
+  color: #49442e;
+}
