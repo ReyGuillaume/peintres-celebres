@@ -9,10 +9,6 @@
   width: 60%;
   margin: 0 auto 1em;
 }
-.oeuvre:nth-child(even) {
-  flex-direction: row-reverse;
-}
-
 .oeuvre__informations {
   width: 50%;
   background-color: #712121;

@@ -1,14 +1,11 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import ArtistCard from '../components/ArtistCard/ArtistCard'
+import { data } from "../data"
 
 const Home = () => {
-  const [artists, setArtists] = useState([
-    {
-      id: 1,
-      url: 'https://th.bing.com/th/id/OIP.Rjit-VtcuL9In71Phto43wHaJk?pid=ImgDet&rs=1',
-      name: 'Léonard de Vinci',
-    },
-  ])
+  const [artists, setArtists] = useState([])
+
+  useEffect(() => setArtists(data), [])
 
   return (
     <>
